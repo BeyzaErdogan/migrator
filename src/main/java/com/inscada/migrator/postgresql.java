@@ -18,7 +18,7 @@ public class postgresql implements Migrator {
             postgresConnection = DriverManager.getConnection(url, Username, password.toString());
             
             JOptionPane.showMessageDialog(null, "connected");
-            System.out.println("Opened database successfully");
+            System.out.println("Opened database successfully aaa");
 
         } catch (Exception e) {
             e.printStackTrace();
